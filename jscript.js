@@ -1,8 +1,8 @@
-function addNumbers(a, b) {
+function response(a, b) {
     return a + b;
 }
 //only put in numbers!
-console.log(addNumbers("6", "5"))
+console.log(response("6", "5"))
 
 // JavaScript Types....
 // Primitives:
