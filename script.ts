@@ -13,5 +13,6 @@ function addNumbers(a: number, b: number) {
     
 }
 
-button.addEventListener('click', () => addNumbers(parseInt(firstInput.value), parseInt(secondInput.value))
+button.addEventListener('click', () => 
+    addNumbers(parseInt(firstInput.value), parseInt(secondInput.value)))
 
