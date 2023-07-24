@@ -1,4 +1,4 @@
-const reviewTotalDisplay = document.querySelector('#reviews')
+const reviewTotalDisplay: string | null = document.querySelector('#reviews')
 
 const reviews = [
     {
@@ -22,7 +22,7 @@ const reviews = [
 ]
 
 function showReviewTotal (value : number) {
-    reviewTotalDisplay.innerHTML = value.toString()
+    reviewTotalDisplay.innerHTML = 'review total' + value.toString()
 }
 
-showReviewTotal(reviews.length)
+showReviewTotal(reviews!.length)
